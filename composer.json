@@ -1,0 +1,27 @@
+{
+    "name": "makaraman/laravel-parampos",
+    "description": "Parampos Payment Integration Laravel Package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mucahit Karaman",
+            "email": "git.makaraman@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support": ">=5.4"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Makaraman\\Parampos\\Providers\\ParamposServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Makaraman\\Parampos\\": "src/"
+        }
+    }
+}
