@@ -6,12 +6,15 @@ Laravel Parampos Integration
 
 ## Install Via Composer
 
-`composer require makaraman/laravel-parampos`
-
+```
+composer require makaraman/laravel-parampos
+```
 
 
 ## Publish Config
-`php artisan vendor:publish --provider=Makaraman\Parampos\Providers\ParamposServiceProvider --tag=config`
+```
+php artisan vendor:publish --provider=Makaraman\Parampos\Providers\ParamposServiceProvider --tag=config
+```
 ## Usage
 
 ```
