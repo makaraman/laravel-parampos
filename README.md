@@ -37,4 +37,4 @@ $parampos
     ->setSecureType('3D') // (REQUIRED) | 3D (for 3DSECURE) or NS (for NONSECURE)
     ->setSuccessUrl('success-url') // REQUIRED | Return URL
     ->setFailureUrl('failure-url') // REQUIRED | Return URL
-    ->send(); // send() -> to make request | debugger() in order to see what are sent in request```
+    ->send(); // send() -> to make request | debugger() in order to see what are sent in request
