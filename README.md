@@ -15,6 +15,8 @@ Laravel Parampos Integration
 ## Usage
 
 ```
+// use Makaraman\Parampos\Parampos;
+
 $parampos = new Parampos();
 $parampos
     ->setTestMode(true) // DEFAULT FALSE | IT CHANGES BASE API URL
