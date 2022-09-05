@@ -29,7 +29,7 @@ $parampos
         'card_cvc' => '000', // REQUIRED | 3 DIGITS
     ])
     ->setIpAddress($_SERVER["HTTP_CF_CONNECTING_IP"] ?? $_SERVER['REMOTE_ADDR']) // (REQUIRED)
-    ->setOrderId(time()) // (REQUIRED) | Spefic Order ID
+    ->setOrderId(time()) // (REQUIRED) | Specific Order ID
     ->setOrderDescription('Order Description') // (OPTIONAL) | Order Description
     ->setInstallmentRate('3') // (REQUIRED) | DEFAULT 1
     ->setInstallmentAmount(325) // (REQUIRED) | DEFAULT 0
