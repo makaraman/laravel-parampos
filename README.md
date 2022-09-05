@@ -14,7 +14,8 @@ Laravel Parampos Integration
 `php artisan vendor:publish --provider=Makaraman\Parampos\Providers\ParamposServiceProvider --tag=config`
 ## Usage
 
-```$parampos = new Parampos();
+```
+$parampos = new Parampos();
 $parampos
     ->setTestMode(true) // DEFAULT FALSE | IT CHANGES BASE API URL
     // ->setApiUrl('string') // (OPTIONAL) | DEFUALT API URL COMES FROM config/parampos.php
